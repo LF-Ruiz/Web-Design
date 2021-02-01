@@ -16,3 +16,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<body>
+    <!--Create nav bar with collapse for small screen-->
+    <nav class=" navbar-expand-lg navbar-light navbar nav-color">
+
+
+        <a class="navbar-brand" href="index.html"> Latitude</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--convert the nav bar to small size with end the bar format-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 sub-nav-color">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Plots
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="visualizations/temperatures.html">Max
+                                Temperature</a>
+
+                            <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+
+                            <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="visualizations/windspeed.html">Wind Speed</a>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="visualizations/comparisons.html">Comparison </a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="visualizations/data.html">Data </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+</body>
+
+</html>
