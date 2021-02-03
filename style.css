@@ -1,0 +1,50 @@
+/* Giving our navbar some padding and a background color */
+.navbar {
+    padding: 10px;
+    background: #1569f8;
+    font-weight:bold;
+    font-family:Helvetica;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 15px;
+    font-weight:bold;
+}
+
+.home {
+    padding: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.body{
+    font-family:Helvetica;
+}
+
+.header{
+    padding-top: 5px;
+    background: lightblue;
+    text-align: center;
+    font-weight: 500;
+    font-size:x-large
+}
+
+.section{
+    font-style:inherit;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+
+.Title{
+    font-size:medium;
+    text-align: center;
+    font-weight: 600;
+}
+

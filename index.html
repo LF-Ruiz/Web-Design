@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class= "body">
     <!--Create nav bar with collapse for small screen-->
-    <nav class=" navbar-expand-lg navbar-light navbar nav-color">
+  <nav class=" navbar-expand-lg navbar-light navbar nav-color">
 
 
-        <a class="navbar-brand" href="index.html"> Home</a>
+        <a class="navbar-brand home" href="index.html"> Home</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +57,99 @@
                 </ul>
             </div>
         </div>
-    </nav>
+  </nav>
+  <header class="header">
+    Summary
+  </header>
+
+  <br>
+    <!--body main-->
+    <!-- Creates the Overall Grid -->
+  <!--use container class for columns the page in many sizes-->
+  <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="main">
+                    <h2>
+                      Weather by Latitud 
+                    </h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="Resources/assets/images/Fig1.png"
+                                class="img-fluid shadow-lg p-3 mb-5 bg-white rounded" alt="lat vs temp">
+                        </div>
+                        <div class="col-md-4">
+                          <section class="section">
+                            <p> The purpose of this project was to analyze how weather changes as you get closer
+                              to the Equator. We've selected randomly more than 500 cities in the world using 
+                              the Open Weather Map API.
+                              <br>
+                              <br>
+                              After assembling the dataset, we used Matplotlib to plot various aspect
+                              of the weather depending of the latitud of the city. I've analyzed temperature, cloudiness, wind speed, and
+                              humidity.
+                            </p>
+                          </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="main">
+                    <h3 class="center">
+                        Visualizations 
+                    </h3>
+                    <hr>
+                    <!--Grid for the Visualizations panel-->
+                    <div class="container">
+                        <div class="row">
+                            <!--Four Visualizations -->
+                            <div class="col-sm-3 col-lg-6">
+                                <h4 class="Title">
+                                City Latitud vs Temperature
+                                </h4>
+                                <a href="visualizations/temperatures.html"><img src="Resources/assets/images/Fig1.png"
+                                        class="img-fluid shadow-lg p-1  mb-5"></a>
+                            </div>
+                            <div class="col-sm-3 col-lg-6">
+                                <h4 class="Title">
+                                City Latitud vs Humidity
+                                </h4>
+                                <a href="visualizations/humidity.html"><img src="Resources/assets/images/Fig2.png"
+                                        class="img-fluid shadow-lg p-1 mb-5"
+                                        alt="humidity vs lat"></a>
+                            </div>
+                            <div class="col-sm-3 col-lg-6">
+                                <h4 class="Title">
+                                City Latitud vs Cloudiness
+                                </h4>
+                                <a href="visualizations/cloudiness.html"><img
+                                        src="Resources/assets/images/Fig3.png"
+                                        class="img-fluid shadow-lg p-1 mb-5"
+                                        alt="cloudiness vs lat"></a>
+                            </div>
+                            <div class="col-sm-3 col-lg-6">
+                                <h4 class="Title">
+                                City Latitud vs Wind Speed
+                                </h4>
+                                <a href="visualizations/windspeed.html"><img src="Resources/assets/images/Fig4.png"
+                                        class="img-fluid shadow-lg p-1 mb-5">
+                            </div></a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 
 </body>
