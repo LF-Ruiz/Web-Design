@@ -54,3 +54,15 @@
 .img{
     border-radius: 100px;
 }
+
+.dataframe{
+    border-color: blue;
+    box-shadow: #1569f8;
+    margin-left: 150pt;
+    text-align: center;
+    font-size: medium;
+}
+
+.table{
+    width: fit-content;
+}
