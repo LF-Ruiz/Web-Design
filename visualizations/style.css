@@ -46,4 +46,7 @@
     font-size:x-large;
     text-align: center;
     font-weight: 600;
+    margin-top: 10pt;
+    font-family: Helvetica;
+    font-style:inherit;
 }
